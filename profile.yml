@@ -7,4 +7,9 @@ customer_pipeline:
       username: PRIYANKAREDDY2294
       password: Honey123456789@*
       role: ACCOUNTADMIN
-      database: TRAINING
+      database: DBT
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      authenticator: externalbrowser
+
+      
