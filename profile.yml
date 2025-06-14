@@ -1,0 +1,15 @@
+customer_pipeline:
+  target : dev
+  outputs:
+    dev:
+      type: snowflake
+      account: IKGSNYC-YY32631
+      username: PRIYANKAREDDY2294
+      password: Honey123456789@*
+      role: ACCOUNTADMIN
+      database: DBT
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      authenticator: externalbrowser
+
+      
